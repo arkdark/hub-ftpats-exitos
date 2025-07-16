@@ -215,11 +215,10 @@
     btnDownload.addEventListener('click', () => {
       const url = select.value;
 
-      // Cria um link invisível para simular clique direto
       const link = document.createElement('a');
       link.href = url;
-      link.target = '_blank';
-      link.rel = 'noopener';
+      link.target = '_blank';  // opcional: remove se quiser evitar nova aba
+      link.download = '';      // força o download, se o servidor permitir
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
