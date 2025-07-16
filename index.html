@@ -217,7 +217,6 @@
 
       const link = document.createElement('a');
       link.href = url;
-      link.target = '_blank';  // opcional: remove se quiser evitar nova aba
       link.download = '';      // força o download, se o servidor permitir
       document.body.appendChild(link);
       link.click();
