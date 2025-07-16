@@ -1,7 +1,7 @@
 
-# Hub de Versões ATS · Êxitos Sistemas
+# Hub de Versões Êxitos Sistemas
 
-Este projeto foi criado para facilitar o acesso às versões dos principais módulos da suíte **ATS - Êxitos Sistemas**, de forma organizada, prática e visual.  
+Este projeto foi criado para facilitar o acesso às versões dos principais módulos do sistema, de forma organizada, prática e visual.  
 Através dele, é possível consultar e baixar rapidamente a versão desejada dos aplicativos disponíveis.
 
 ## ✅ Funcionalidades
